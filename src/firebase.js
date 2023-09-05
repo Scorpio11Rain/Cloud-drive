@@ -4,13 +4,12 @@ import "firebase/firestore"
 import "firebase/storage"
 
 const app = firebase.initializeApp({
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyCWGEqUSyFJklfT595qQKmybv-sGH4Fi_c",
+  authDomain: "auth-development-c5d6b.firebaseapp.com",
+  projectId: "auth-development-c5d6b",
+  storageBucket: "auth-development-c5d6b.appspot.com",
+  messagingSenderId: "324060534812",
+  appId: "324060534812:web:dc19aa1711f9de7c87e7d9"
 })
 
 const firestore = app.firestore()
